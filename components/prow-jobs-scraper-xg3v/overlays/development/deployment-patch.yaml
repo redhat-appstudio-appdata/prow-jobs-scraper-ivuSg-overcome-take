@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: prow-jobs-scraper-xg3v
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/prow-jobs-scraper/prow-jobs-scraper-xg3v@sha256:9308dd63d120799db06736dd9cf29fdac7ddc455c33246a8367b8bae0ff56884
+        name: container-image
+        resources: {}
+status: {}
