@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: prow-jobs-scraper-xg3v
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
