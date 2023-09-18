@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: prow-jobs-scraper-xg3v
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/prow-jobs-scraper/prow-jobs-scraper-xg3v@sha256:0898cc248777224a16b2a1334f35809e6ae07716b551ff391944eeffb84ca51f
+      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/prow-jobs-scraper/prow-jobs-scraper-xg3v@sha256:9308dd63d120799db06736dd9cf29fdac7ddc455c33246a8367b8bae0ff56884
         imagePullPolicy: Always
         name: container-image
         resources:
